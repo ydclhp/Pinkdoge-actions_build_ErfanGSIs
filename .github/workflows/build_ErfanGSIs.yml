@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.6.18/miui_MI6X_20.6.18_5810c312a5_9.0.zip
+  ROM_URL: http://download.h2os.com/OnePlus6/OPEN/OnePlus6Hydrogen_22_OTA_065_all_2004012102_98b5c6c8589049b7.zip
   ROM_NAME: MIUI
-  BUILD_AB: false
-  BUILD_AONLY: true
-  ROM_AONLY: MIUI12_Aonly_9_20.6.18_MI6X_LKX.7z
-  ROM_AB: MIUI12_AB_10_V12.1.0.3.0_MI9_LKX.7z
+  BUILD_AB: true
+  BUILD_AONLY: false
+  ROM_AONLY:
+  ROM_AB: FLYME
 
 jobs:
   build:
